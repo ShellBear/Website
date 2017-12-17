@@ -1,0 +1,45 @@
+li a {
+		background-position: 0; 	
+		color: rgb(119, 119, 119);
+		text-decoration: none;
+		display: inline-block;
+	}
+
+a {
+	padding: 10px 25px;
+}
+
+li {
+		float: left;
+	}
+
+ul {
+		list-style: none;
+		height: 200px;
+		width: 400px;
+		position: fixed;
+		top: 17%;
+		left: 50%;
+		margin-top: -100px;
+		margin-left: -200px;
+		text-align: center;
+}
+
+a.active {
+    	font-weight: bold;
+	color: rgb(255, 255, 255);
+}
+
+li a:hover {
+	font-weight: bold;
+	color: rgb(255, 255, 255)
+}
+
+body {
+		background-color: rgb(20, 20, 20);
+	}
+
+* {
+		font-size: 100%;
+		font-family: sans-serif;
+	}
